@@ -1,30 +1,32 @@
 # 🤖 AI Robot Vision System
 
-An AI-powered computer vision system built using **YOLOv8**, **Python**, and **OpenCV** that detects objects from images, counts detected objects, filters low-confidence predictions, exports results to JSON, and generates a robot vision report.
+An AI-powered robot vision system built with **YOLOv8**, **Python**, and **OpenCV** for real-time object detection, object counting, JSON export, and robot vision reporting.
 
 ---
 
-## 🚀 Features
+## 📌 Features
 
-- Object Detection using YOLOv8
-- Image Upload
-- Bounding Box Detection
-- Confidence Score Filtering
-- Object Counting
-- JSON Export
-- Robot Vision Report
+- Detects 80+ COCO object classes
+- Draws bounding boxes
+- Displays confidence scores
+- Counts detected objects
+- Exports results to JSON
+- Generates a robot vision report
+- Works completely in Google Colab
 
 ---
 
 ## 🛠 Technologies Used
 
 - Python
-- Google Colab
-- OpenCV
 - YOLOv8
+- OpenCV
 - NumPy
+- Matplotlib
 - JSON
-- Git & GitHub
+- Google Colab
+- Git
+- GitHub
 
 ---
 
@@ -33,31 +35,68 @@ An AI-powered computer vision system built using **YOLOv8**, **Python**, and **O
 ```
 robot-vision-system/
 │
-├── Robot_Vision_System.ipynb
-├── detections.json
-├── detected_kitchen.png
-├── green-farmhouse-kitchen.avif
+├── notebook/
+│   └── Robot_Vision_System.ipynb
+│
+├── outputs/
+│   ├── detections.json
+│   └── detected_kitchen.png
+│
+├── screenshots/
+│   ├── detection_result.png
+│   └── robot_report.png
+│
+├── sample_images/
+│   └── green-farmhouse-kitchen.avif
+│
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-## 📊 Sample Output
+## 📸 Screenshots
 
-Detected Objects
+### Object Detection
 
-- Bowl
-- Oven
+![Detection](screenshots/detection_result.png)
 
-JSON Output
+---
+
+### Robot Vision Report
+
+![Report](screenshots/robot_report.png)
+
+---
+
+## 📊 Sample JSON Output
 
 ```json
-{
+[
+  {
     "object": "bowl",
-    "confidence": 0.86
-}
+    "confidence": 0.86,
+    "bounding_box": {
+      "x1": 503.97,
+      "y1": 565.72,
+      "x2": 572.77,
+      "y2": 615.29
+    }
+  }
+]
 ```
+
+---
+
+## 🚀 How to Run
+
+1. Open Google Colab.
+2. Install required libraries.
+3. Load the YOLOv8 model.
+4. Upload an image.
+5. Run object detection.
+6. View results.
+7. Export detections to JSON.
 
 ---
 
@@ -65,7 +104,7 @@ JSON Output
 
 - Real-time webcam detection
 - Video object detection
-- Object tracking (DeepSORT)
+- Multi-object tracking
 - ROS2 integration
 - Mobile robot navigation
 
@@ -73,4 +112,6 @@ JSON Output
 
 ## 👩‍💻 Author
 
-Harsha
+**Harsha**
+
+AI | Robotics | Computer Vision | Python
