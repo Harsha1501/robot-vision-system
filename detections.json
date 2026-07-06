@@ -1,0 +1,72 @@
+[
+    {
+        "object": "bowl",
+        "confidence": 0.86,
+        "bounding_box": {
+            "x1": 503.97,
+            "y1": 565.72,
+            "x2": 572.77,
+            "y2": 615.29
+        }
+    },
+    {
+        "object": "bowl",
+        "confidence": 0.77,
+        "bounding_box": {
+            "x1": 502.18,
+            "y1": 285.99,
+            "x2": 603.29,
+            "y2": 336.76
+        }
+    },
+    {
+        "object": "oven",
+        "confidence": 0.74,
+        "bounding_box": {
+            "x1": 232.83,
+            "y1": 473.25,
+            "x2": 437.82,
+            "y2": 819.47
+        }
+    },
+    {
+        "object": "bowl",
+        "confidence": 0.67,
+        "bounding_box": {
+            "x1": 607.39,
+            "y1": 291.88,
+            "x2": 707.52,
+            "y2": 335.26
+        }
+    },
+    {
+        "object": "bowl",
+        "confidence": 0.6,
+        "bounding_box": {
+            "x1": 505.72,
+            "y1": 303.04,
+            "x2": 602.42,
+            "y2": 335.66
+        }
+    },
+    {
+        "object": "bowl",
+        "confidence": 0.55,
+        "bounding_box": {
+            "x1": 846.35,
+            "y1": 647.16,
+            "x2": 955.94,
+            "y2": 699.24
+        }
+    },
+    {
+        "object": "bowl",
+        "confidence": 0.53,
+        "bounding_box": {
+            "x1": 612.45,
+            "y1": 311.27,
+            "x2": 703.26,
+            "y2": 334.13
+        }
+    }
+]
